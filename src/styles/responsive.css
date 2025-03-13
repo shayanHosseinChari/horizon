@@ -1,0 +1,32 @@
+@media screen and (max-width: 1200px){
+
+}
+
+
+@media screen and (max-width: 900px){
+
+}
+
+@media screen and (max-width: 768px){
+
+    .topWrraperInHome{
+        width: 100%;
+        padding-inline: 10px;
+    }
+    .barberMainContainer-searchBox{
+        width: 100%;
+    }
+    .barberMainContainer-searchBox,.discoverButton{
+        transform: scale(0.8);
+    }
+    .discoverButton{
+        width: 100%;
+        margin-top: unset;
+    }
+    
+}
+
+@media screen and (max-width: 576px){
+
+}
+

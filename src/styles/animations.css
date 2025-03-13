@@ -1,0 +1,58 @@
+.fade-animation {
+    transition: all 0.3s ease;
+    animation: fade-animation 0.8s 1;
+}
+
+@keyframes fade-animation {
+    0%{
+        transform: translateY(-2rem);
+        opacity:0.3;
+    }100%{
+        opacity:1;
+        transform: translateY(0);
+
+
+    }
+}
+
+.marquee {
+    display: inline-block;
+    padding-left: 100%;
+
+    animation: marquee 30s linear infinite;
+  }
+  
+  @keyframes marquee {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+
+
+  @keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.lazyBg{
+    background: linear-gradient(-45deg, #27283a, #10101b, #15161a, #0f0f1241);
+    background-size: 400% 400%;
+    animation: gradient 4s ease infinite;
+}
+.lazyParentBg{
+    background: linear-gradient(45deg,  #27283a, #1f2027, #22232e);
+    background-size: 300% 300%;
+    animation: gradient 2.7s ease infinite;
+}
