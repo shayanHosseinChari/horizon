@@ -65,9 +65,9 @@ export default function Home() {
             return (
               <div key={ i*3} className="lazyBg" style={{minWidth:200,height: 150,borderRadius: 10,margin: 10}}>
           <div style={{width:'100%',display:"flex",alignItems:"center",justifyContent:"center"}}>
-            <div className="lazyParentBg" style={{width:70,height: 70,borderRadius:"100%",marginTop: "-2rem"}}></div>
+            <div className="lazyParentBg" style={{width:70,height: 70,borderRadius:"100%",marginTop: "15px"}}></div>
           </div>
-          <div className="lazyParentBg" style={{marginTop: 15,width: "40%",margin:"auto",height: 10,borderRadius: 20}}></div>
+          <div className="lazyParentBg" style={{marginTop:10 ,width: "40%",margin:"auto",height: 10,borderRadius: 20}}></div>
         </div>
             )
           })
