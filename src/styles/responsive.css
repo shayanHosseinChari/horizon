@@ -3,12 +3,43 @@
 }
 
 
-@media screen and (max-width: 900px){
-
+@media screen and (max-width: 992px){
+    .barbersListLayout-contentWrraper{
+        width: 70%;
+    }
+    .barbersListLayout-sidebar{
+        width: 30%;
+    }
+    .searchPageBarberItem{
+        width: 40%;
+    }
+    
 }
-
+@media screen and (max-width: 890px){
+    .barbersListLayout-topBar{
+        display: none;
+    }
+    .barbersListLayout{
+        flex-direction: column;
+    }
+    .sidebarServicesWrraper{
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+    .barbersListLayout-sidebar,.barbersListLayout-contentWrraper{
+        width: 100%;
+    }
+    .sidebarServicesWrraper-item__text{
+        white-space: nowrap;
+    }
+    .barbersListLayout-content{
+        width: 100%;
+        padding-inline: 10px;
+    }
+    
+}
 @media screen and (max-width: 768px){
-
+   
     .topWrraperInHome{
         width: 100%;
         padding-inline: 10px;
@@ -27,6 +58,9 @@
 }
 
 @media screen and (max-width: 576px){
-
+    .searchPageBarberItem{
+        width: 100%;
+        margin-top: 5px;
+    }
 }
 
