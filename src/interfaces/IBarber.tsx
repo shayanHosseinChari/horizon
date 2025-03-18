@@ -1,7 +1,7 @@
 export default interface IBarber {
     address:string;
     avatar:string;
-    distance: Number;
+    distance: number;
     fullname: string;
     is_bookmarked: boolean;
     is_shop: boolean;

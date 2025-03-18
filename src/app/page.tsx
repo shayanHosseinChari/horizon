@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import axios from "axios";
 import Marquee from "react-fast-marquee";
-import Image from "next/image";
 import { useRouter } from 'next/navigation'
 
 
