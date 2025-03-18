@@ -211,7 +211,7 @@ className="barbersListLayout-topBar__img"
                         allBarbers?.map((i:IBarber)=>{
                           if(isAllBarbers){
                             return (
-                                <div className='searchPageBarberItem fade-animation' key={i.lat}>
+                                <div className='searchPageBarberItem fade-animation' >
                                     <div className='searchPageBarberItem-avatarWrraper'>
                                     <div style={{position:"relative"}}>
                                     <img src={i.avatar} className='searchPageBarberItem__avatar'/>
@@ -279,7 +279,7 @@ className="barbersListLayout-topBar__img"
                           }else{
                             if(i.is_shop == false){
                                 return (
-                                    <div className='searchPageBarberItem fade-animation' key={i.lat}>
+                                    <div className='searchPageBarberItem fade-animation' >
                                         <div className='searchPageBarberItem-avatarWrraper'>
                                         <div style={{position:"relative"}}>
                                         <img src={i.avatar} className='searchPageBarberItem__avatar'/>

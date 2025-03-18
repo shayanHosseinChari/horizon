@@ -62,7 +62,7 @@ export default function Home() {
         {
           [1,2,3,4,5,6,7,10,11,12,13,14,15,16,17,183].map(i=>{
             return (
-              <div key={ i*3} className="lazyBg" style={{minWidth:200,height: 150,borderRadius: 10,margin: 10}}>
+              <div  className="lazyBg" style={{minWidth:200,height: 150,borderRadius: 10,margin: 10}}>
           <div style={{width:'100%',display:"flex",alignItems:"center",justifyContent:"center"}}>
             <div className="lazyParentBg" style={{width:70,height: 70,borderRadius:"100%",marginTop: "15px"}}></div>
           </div>
@@ -80,7 +80,7 @@ export default function Home() {
         {
           barbers.map((barber:any)=>{
             return (
-              <div  style={{background:"rgba(15, 13, 21, 1)",display:"flex",alignItems:"center",position:"relative",justifyContent:"space-between",height:"200px",borderRadius: 10,margin:10}}  key={barber.avatar}>
+              <div  style={{background:"rgba(15, 13, 21, 1)",display:"flex",alignItems:"center",position:"relative",justifyContent:"space-between",height:"200px",borderRadius: 10,margin:10}}  >
                  <div style={{display:'flex',alignItems:"center",paddingInline: 10}}>
                  <img  src={barber.avatar} alt={barber.slug} style={{width:"6rem",height: "6rem",borderRadius: 100,objectFit:"cover",marginTop: 10}}/>
                 <div style={{display:"flex",justifyContent:"flex-start",alignItems:"flex-start",flexDirection:'column',marginInline: 10}}>
